@@ -175,3 +175,9 @@ a:hover {
     color: #777;
     text-align: center;
 }
+
+.download-btn {
+    padding: 0.5rem;
+    border: 1.5px solid #ccc;
+    border-radius: 2rem;
+}
