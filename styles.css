@@ -177,9 +177,18 @@ a:hover {
 }
 
 .download-btn {
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     border: 1.5px solid #ccc;
-    border-radius: 2rem;
     background-color: white;
-    color: #555;
+    color: #777;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: #00a170;
+    border-color: #00a170;
+    color: white;
+    transition: ease 0.25s;
+    font-weight: 500;
 }
